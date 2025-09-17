@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "trading-assistant-replit"
+version = "1.0.0"
+description = "AI Trading Assistant Bot"
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.10.0,<3.12"
+streamlit = "^1.29.0"
+yfinance = "^0.2.33"
+pandas = "^2.1.4"
+flask = "^3.0.0"
+pytz = "^2023.3"
+plotly = "^5.18.0"
+openai = "^1.6.1"
